@@ -1,6 +1,8 @@
 import { useState } from "react";
 import "./styles/unitList.css";
 
+import UnitListing from "./UnitListing";
+
 const UnitList = ({ units }) => {
   const areaOfOne = units.filter((unit) => unit.area === 1);
   const areaAboveOne = units.filter((unit) => unit.area > 1);
@@ -28,7 +30,7 @@ const UnitList = ({ units }) => {
       </div>
       <div className="unitContainer">
         {currentView.map((unit) => (
-          <p>{JSON.stringify(unit)}</p>
+          <UnitListing unit={unit} />
         ))}
       </div>
     </div>

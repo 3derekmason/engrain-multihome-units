@@ -1,7 +1,7 @@
 .unitList {
   box-sizing: border-box;
-  width: 800px;
   height: 720px;
+  width: 800px;
   border-radius: 2px;
   display: flex;
   flex-direction: column;
@@ -39,6 +39,12 @@
 .unitList .unitContainer {
   box-sizing: border-box;
   padding: 40px;
+  padding-top: 88px;
   width: 100%;
-  background: #ffffff;
+  background: #ffffff80;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
 }

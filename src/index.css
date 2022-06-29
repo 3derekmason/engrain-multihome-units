@@ -4,6 +4,7 @@
   box-sizing: border-box;
   --bg-dark: #263349;
   --font-blue: #57a1be;
+  --font-blue-op: #57a1be80;
 }
 
 body {
