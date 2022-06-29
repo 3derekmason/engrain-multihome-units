@@ -1,6 +1,44 @@
 .unitList {
+  box-sizing: border-box;
   width: 800px;
-  height: 640px;
-  border: 0.5px solid #ffffff80;
+  height: 720px;
   border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+}
+
+.unitList .filter {
+  width: 800px;
+  min-height: 80px;
+  background: var(--bg-dark);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.filter button {
+  border: none;
+  border-radius: 2px;
+  height: 48px;
+  width: 88px;
+  background: #fff;
+  text-transform: uppercase;
+  color: var(--bg-dark);
+  transition: 0.2s;
+}
+.filter button:hover {
+  background: #ffffff80;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.unitList .unitContainer {
+  box-sizing: border-box;
+  padding: 40px;
+  width: 100%;
+  background: #ffffff;
 }

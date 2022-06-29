@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
 
 * {
+  box-sizing: border-box;
   --bg-dark: #263349;
   --font-blue: #57a1be;
 }
 
 body {
-  box-sizing: border-box;
   margin: 0;
   width: 100vw;
   font-family: "Poppins", sans-serif;
@@ -27,5 +27,13 @@ code {
   }
   100% {
     transform: translateY(0);
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
