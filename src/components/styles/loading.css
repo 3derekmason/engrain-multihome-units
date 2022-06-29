@@ -8,7 +8,7 @@
 .loading h1 {
   font-size: 64px;
   font-weight: 500;
-  animation: pulse 1s infinite;
+  animation: pulse 2s infinite;
 }
 
 @keyframes pulse {
