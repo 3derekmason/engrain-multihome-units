@@ -16,7 +16,6 @@ function App() {
   return (
     <div className="App">
       <Appbar />
-      <p>{JSON.stringify(units?.data)}</p>
     </div>
   );
 }

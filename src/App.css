@@ -1,5 +1,4 @@
 .App {
   text-align: center;
-  width: 100vw;
   max-height: calc(100vh - 88px);
 }
