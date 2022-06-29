@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import logo from "./logo.svg";
+import Appbar from "./components/Appbar";
 import "./App.css";
 
 function App() {
@@ -13,10 +13,10 @@ function App() {
       });
   };
   getUnits();
-  console.log(units);
   return (
     <div className="App">
-      <p>{JSON.stringify(units.data)}</p>
+      <Appbar />
+      <p>{JSON.stringify(units?.data)}</p>
     </div>
   );
 }
