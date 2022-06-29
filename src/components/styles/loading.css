@@ -1,0 +1,27 @@
+.loading {
+  width: 100vw;
+  height: 100%;
+  display: grid;
+  place-content: center;
+}
+
+.loading h1 {
+  font-size: 64px;
+  font-weight: 500;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  33% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
