@@ -19,7 +19,7 @@ function App() {
     <div className="App">
       <Appbar />
       <Welcome />
-      <p className="caption">Browse Family Units:</p>
+      <p className="caption">Browse Multi-family Units:</p>
       <UnitList units={units.data} />
     </div>
   ) : (

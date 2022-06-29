@@ -1,10 +1,12 @@
 .welcome {
-  width: 80%;
+  width: 90vw;
   height: 64px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 80px;
+  background: var(--bg-dark);
+  border-bottom: 0.5px solid var(--font-blue-op);
 }
 .welcome h1 {
   font-weight: 400;

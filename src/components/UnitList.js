@@ -12,7 +12,7 @@ const UnitList = ({ units }) => {
     <div className="unitList">
       <div className="filter">
         <button
-          disabled={currentView === areaOfOne}
+          disabled={JSON.stringify(currentView) === JSON.stringify(areaOfOne)}
           onClick={() => {
             toggleView(areaOfOne);
           }}
@@ -20,7 +20,9 @@ const UnitList = ({ units }) => {
           Area = 1
         </button>
         <button
-          disabled={currentView === areaAboveOne}
+          disabled={
+            JSON.stringify(currentView) === JSON.stringify(areaAboveOne)
+          }
           onClick={() => {
             toggleView(areaAboveOne);
           }}

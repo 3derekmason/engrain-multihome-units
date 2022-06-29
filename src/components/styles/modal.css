@@ -1,3 +1,7 @@
 .unitCard {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 16;
   background: #212121;
 }

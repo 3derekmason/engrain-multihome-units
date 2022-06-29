@@ -15,7 +15,7 @@
 
 .listing:hover {
   box-shadow: 0 2px 4px var(--bg-dark);
-  background: var(--font-blue-op);
+  background: var(--font-blue);
   transition: 0.2s;
   cursor: pointer;
 }
