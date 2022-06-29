@@ -1,8 +1,13 @@
 .welcome {
   width: 80%;
-  height: 88px;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 80px;
+}
+.welcome h1 {
+  font-weight: 400;
+  color: var(--font-blue);
+  animation: dropDown 1s;
 }

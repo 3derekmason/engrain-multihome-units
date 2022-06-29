@@ -2,6 +2,7 @@
 
 * {
   --bg-dark: #263349;
+  --font-blue: #57a1be;
 }
 
 body {
@@ -18,4 +19,13 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@keyframes dropDown {
+  0% {
+    transform: translateY(-200%);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
