@@ -1,7 +1,7 @@
-.unitCard {
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
+.modal {
+  width: 90%;
+  height: 160px;
+  position: relative;
   z-index: 16;
-  background: #212121;
+  background: #ffffff80;
 }

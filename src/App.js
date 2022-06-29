@@ -23,7 +23,11 @@ function App() {
       <UnitList units={units.data} />
     </div>
   ) : (
-    <div>loading...</div>
+    <>
+      <Appbar />
+      <Welcome />
+      <div>loading...</div>
+    </>
   );
 }
 
