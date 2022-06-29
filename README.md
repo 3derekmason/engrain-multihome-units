@@ -16,7 +16,7 @@ Click on any list item to open more info about that unit.
 
 ## Getting Started
 
-From `root` directory
+From `root` directory after installing dependencies (`npm i`)
 
 ```
   npm start
