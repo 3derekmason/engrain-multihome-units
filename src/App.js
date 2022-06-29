@@ -16,10 +16,7 @@ function App() {
   console.log(units);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
-      <p>{JSON.stringify(units)}</p>
+      <p>{JSON.stringify(units.data)}</p>
     </div>
   );
 }
