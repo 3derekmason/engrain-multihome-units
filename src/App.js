@@ -15,13 +15,15 @@ function App() {
       });
   };
   getUnits();
-  return (
+  return units ? (
     <div className="App">
       <Appbar />
       <Welcome />
       <p className="caption">Browse Family Units:</p>
-      <UnitList />
+      <UnitList units={units.data} />
     </div>
+  ) : (
+    <div>loading...</div>
   );
 }
 

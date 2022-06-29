@@ -1,7 +1,13 @@
 import "./styles/unitList.css";
 
-const UnitList = () => {
-  return <div className="unitList"></div>;
+const UnitList = ({ units }) => {
+  return (
+    <div className="unitList">
+      {units.map((unit) => (
+        <p>{JSON.stringify(unit)}</p>
+      ))}
+    </div>
+  );
 };
 
 export default UnitList;
