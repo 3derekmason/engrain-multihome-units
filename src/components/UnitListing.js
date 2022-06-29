@@ -1,9 +1,11 @@
 import { useState } from "react";
-import "./styles/listing.css";
 
 import UnitCard from "./UnitCard";
 
+import "./styles/listing.css";
+
 const UnitListing = ({ unit }) => {
+  // Display or don't display additional info for listing
   const [open, toggleOpen] = useState({ display: "none" });
   const openInfo = () => {
     toggleOpen({ display: "flex" });
@@ -11,6 +13,8 @@ const UnitListing = ({ unit }) => {
   const closeInfo = () => {
     toggleOpen({ display: "none" });
   };
+
+  // Set options for date string params
   const options = {
     weekday: "long",
     year: "numeric",

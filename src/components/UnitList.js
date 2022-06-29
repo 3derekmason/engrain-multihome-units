@@ -1,9 +1,11 @@
 import { useState } from "react";
-import "./styles/unitList.css";
 
 import UnitListing from "./UnitListing";
 
+import "./styles/unitList.css";
+
 const UnitList = ({ units }) => {
+  // Filter units by area
   const areaOfOne = units.filter((unit) => unit.area === 1);
   const areaAboveOne = units.filter((unit) => unit.area > 1);
   const [currentView, toggleView] = useState(areaOfOne);

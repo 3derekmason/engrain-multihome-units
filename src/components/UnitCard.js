@@ -2,6 +2,7 @@ import "./styles/modal.css";
 
 const UnitCard = ({ open, close, unit }) => {
   return (
+    // Began as a modal but transitioned into a "pop in" modal
     <div style={open} onClick={close} className="modal">
       <h2>Unit {unit.unit_number}</h2>
       <ul>
