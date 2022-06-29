@@ -29,7 +29,6 @@
   text-transform: uppercase;
   color: #fff;
   transition: 0.2s;
-  box-shadow: 0 2px 1px var(--font-blue-op);
 }
 .filter p {
   color: var(--bg-dark);
@@ -44,7 +43,7 @@
 }
 .filter button:disabled {
   opacity: 0.4;
-  box-shadow: none;
+  box-shadow: 0 2px 1px var(--font-blue);
 }
 
 .unitList .unitContainer {
