@@ -18,11 +18,15 @@ Click on any list item to open more info about that unit.
 
 From `root` directory after installing dependencies (`npm i`)
 
+Run
+
 ```
   npm start
 ```
 
 - Build web assets and begin development at `localhost:3000`
+
+and in a separate terminal
 
 ```
   php -S localhost:8000
