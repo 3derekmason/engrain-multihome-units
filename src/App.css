@@ -1,4 +1,12 @@
 .App {
   text-align: center;
   max-height: calc(100vh - 88px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.caption {
+  font-size: 14px;
+  font-weight: 200;
 }

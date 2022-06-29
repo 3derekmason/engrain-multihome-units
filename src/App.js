@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import Appbar from "./components/Appbar";
+import Welcome from "./components/Welcome";
 import "./App.css";
 
 function App() {
@@ -16,6 +17,8 @@ function App() {
   return (
     <div className="App">
       <Appbar />
+      <Welcome />
+      <p className="caption">Browse Family Units:</p>
     </div>
   );
 }
