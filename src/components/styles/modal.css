@@ -4,4 +4,23 @@
   position: relative;
   z-index: 16;
   background: #ffffff80;
+  padding: 24px;
+  color: #212121;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.modal h2 {
+  color: var(--bg-dark);
+}
+
+.modal ul {
+  list-style: none;
+  text-align: left;
+}
+
+.modal p {
+  font-size: 16px;
+  color: var(--font-blue);
 }

@@ -35,7 +35,7 @@ const UnitListing = ({ unit }) => {
           {new Date(unit.updated_at).toLocaleDateString(undefined, options)}
         </p>
       </div>
-      <UnitCard open={open} close={closeInfo} />
+      <UnitCard open={open} close={closeInfo} unit={unit} />
     </>
   );
 };

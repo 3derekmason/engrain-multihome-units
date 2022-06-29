@@ -11,6 +11,7 @@ const UnitList = ({ units }) => {
   return (
     <div className="unitList">
       <div className="filter">
+        <p>Click any listing to view more details</p>
         <button
           disabled={JSON.stringify(currentView) === JSON.stringify(areaOfOne)}
           onClick={() => {
@@ -27,7 +28,7 @@ const UnitList = ({ units }) => {
             toggleView(areaAboveOne);
           }}
         >
-          Other Units
+          Larger Units
         </button>
       </div>
       <div className="unitContainer">
