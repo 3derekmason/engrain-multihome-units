@@ -1,23 +1,16 @@
 <?php
-  header(API_Key: '7d64ca3869544c469c3e7a586921ba37');
-  $api_endpoint = 'https://api.sightmap.com/v1/assets/1273/multifamily/units';
+  header("Access-Control-Allow-Origin: *");
 
-  function getUnits($url){
-    $unitsJson = file_get_contents($url);
-    if ($unitsJson === false) {
-      return false;
-    }
+  $api_endpoint = 'https://api.sightmap.com/v1/assets/1273/multifamily/units/';
 
-    $unitsObj = json_decode($unitsJson);
-    if ($unitsObj !== null) {
-      return false;
-    }
+  $curl = curl_init($api_endpoint);
+  curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+  curl_setopt($curl, CURLOPT_HTTPHEADER, [
+      'API-Key: 7d64ca3869544c469c3e7a586921ba37',
+      'Content-type: application/json'
+    ]);
 
-    return $unitsObj;
-  }
-
-  $units = getUnits($api_endpoint);
-  if ($units !== false) {
-    print $units->family->units;
-  }
+  $response = curl_exec($curl);
+  curl_close($curl);
+  echo $response;
 ?>
