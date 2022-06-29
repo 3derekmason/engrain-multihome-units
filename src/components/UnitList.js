@@ -29,8 +29,8 @@ const UnitList = ({ units }) => {
         </button>
       </div>
       <div className="unitContainer">
-        {currentView.map((unit) => (
-          <UnitListing unit={unit} />
+        {currentView.map((unit, i) => (
+          <UnitListing key={i} unit={unit} />
         ))}
       </div>
     </div>
