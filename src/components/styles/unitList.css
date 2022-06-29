@@ -24,7 +24,7 @@
   border: none;
   border-radius: 2px;
   height: 48px;
-  width: 88px;
+  width: 120px;
   background: var(--bg-dark);
   text-transform: uppercase;
   color: #fff;
@@ -41,6 +41,7 @@
 }
 .filter button:disabled {
   opacity: 0.4;
+  box-shadow: none;
 }
 
 .unitList .unitContainer {

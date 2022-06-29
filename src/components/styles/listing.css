@@ -15,7 +15,7 @@
 
 .listing:hover {
   box-shadow: 0 2px 4px var(--bg-dark);
-  background: var(--font-blue);
+  background: var(--font-blue-op);
   transition: 0.2s;
   cursor: pointer;
 }
@@ -26,5 +26,5 @@
 
 .listing .caption {
   font-weight: 200;
-  color: #121212;
+  color: #4d5460;
 }

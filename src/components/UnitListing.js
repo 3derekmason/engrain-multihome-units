@@ -11,6 +11,7 @@ const UnitListing = ({ unit }) => {
     <div className="listing">
       <p className="caption">Unit number:</p>
       <p>{unit.unit_number}</p>
+      <p>{unit.area} sqFt</p>
       <p className="caption">Last updated:</p>
       <p>{new Date(unit.updated_at).toLocaleDateString(undefined, options)}</p>
     </div>

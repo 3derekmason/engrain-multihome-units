@@ -17,7 +17,7 @@ const UnitList = ({ units }) => {
             toggleView(areaOfOne);
           }}
         >
-          Area = 1
+          Tiny Units
         </button>
         <button
           disabled={
@@ -27,7 +27,7 @@ const UnitList = ({ units }) => {
             toggleView(areaAboveOne);
           }}
         >
-          Area > 1
+          Other Units
         </button>
       </div>
       <div className="unitContainer">
