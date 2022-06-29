@@ -17,11 +17,6 @@ body {
   color: #fff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
 @keyframes dropDown {
   0% {
     transform: translateY(-200%);
