@@ -2,6 +2,7 @@ import { useState } from "react";
 
 import Appbar from "./components/Appbar";
 import Welcome from "./components/Welcome";
+import UnitList from "./components/UnitList";
 import "./App.css";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Appbar />
       <Welcome />
       <p className="caption">Browse Family Units:</p>
+      <UnitList />
     </div>
   );
 }

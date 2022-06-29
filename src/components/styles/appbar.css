@@ -1,7 +1,7 @@
 .appbar {
   box-sizing: border-box;
   width: 100vw;
-  height: 88px;
+  min-height: 88px;
   background: #fff;
   display: flex;
   align-items: center;
