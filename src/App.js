@@ -19,19 +19,21 @@ function App() {
   };
   getUnits();
   return units ? (
-    <div className="App">
-      <Appbar />
-      <Welcome />
-      <p className="caption">Browse Multi-family Units:</p>
-      <UnitList units={units.data} />
-    </div>
+    <main>
+      <div className="App">
+        <Appbar />
+        <Welcome />
+        <p className="caption">Browse Multi-family Units:</p>
+        <UnitList units={units.data} />
+      </div>
+    </main>
   ) : (
     // Display loading message until fetch is complete
-    <>
+    <main>
       <Appbar />
       <Welcome />
       <Loading />
-    </>
+    </main>
   );
 }
 
