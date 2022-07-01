@@ -10,6 +10,8 @@ The lists display the unit number, the area, and last updated date for each unit
 
 Click on any list item to open more info about that unit.
 
+<img src="public/screenshot.png">
+
 ---
 
 <br>
