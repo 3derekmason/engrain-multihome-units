@@ -38,7 +38,11 @@ and in a separate terminal
 
 <br>
 
-# Thank you for your time!
+### Passing all axeDevTools requirements
+
+<img src="public/axe.png" width="240">
+
+---
 
 ## Contributors
 
